@@ -12,7 +12,6 @@ The UK police forces for every vehicle collision in the United Kingdom by year. 
 * How accurate can we predict accident severity using accident features only?
 
 ## Approach
-* Data processing and analysis was performed in R and using tableau for visualization.
 * Linking reference data to road-casualty-statistics-accident data and viewing a data summary.
 * Pre-processing the data:  
     + Handling missing values.
@@ -23,15 +22,9 @@ The UK police forces for every vehicle collision in the United Kingdom by year. 
     + Checking for any interactions between the features against the target variable.
     + Using Random forest model for feature importance considering the class imbalance in the target variable using SMOTE sampling.
 
-## Solution
-Required packages:  
-  * data.table  
-  * caret  
-  * ggplot2  
-  * dplyr  
-  * rcompanion  
-  * DescTools  
-  * creditmodel  
-  * corrplot  
-  * rstudioapi  
+## Solution  
+Data processing and analysis was performed in R and using tableau for visualization.  
+Tableau Story link: https://public.tableau.com/app/profile/suzan8299/viz/RoadSafety_16348038092280/RoadSafetyStory?publish=yes
+
+
 
